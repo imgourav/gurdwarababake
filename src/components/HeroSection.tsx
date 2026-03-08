@@ -29,9 +29,6 @@ const HeroSection = () => {
         <p className="text-primary-foreground/60 text-sm font-body tracking-widest uppercase mb-2 animate-fade-in" style={{ animationDelay: "0.5s", animationFillMode: "both" }}>
           {todayDate}
         </p>
-        <p className="text-primary-foreground/80 text-lg md:text-xl font-light max-w-xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "0.6s", animationFillMode: "both" }}>
-          A sacred place of worship, community service, and spiritual growth in New Delhi
-        </p>
         <a
           href="#schedule"
           className="inline-block bg-gradient-gold text-primary-foreground px-8 py-3 rounded-md font-medium text-sm tracking-wide hover:opacity-90 transition-opacity animate-fade-in"
