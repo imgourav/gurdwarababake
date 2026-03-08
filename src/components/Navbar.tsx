@@ -19,7 +19,7 @@ const Navbar = () => {
         <a href="#home" className="flex items-center gap-2">
           <img src={onkarSymbol} alt="Ik Onkar" className="h-8 w-8" />
           <span className="font-display text-lg font-bold text-foreground">
-            Gurudwara Babe Ke
+            Gurudwara Babe Ke Delhi
           </span>
         </a>
 
