@@ -11,8 +11,8 @@ const events = [
   },
   {
     date: "Monthly",
-    title: "Sangrand & Masya Programs",
-    desc: "Special prayers and langar on auspicious days of the Sikh calendar.",
+    title: "Sangrand, Masya & Dasmi Programs",
+    desc: "Special prayers and langar on Sangrand, Masya, and Dasmi — auspicious days of the Sikh calendar.",
   },
 ];
 
