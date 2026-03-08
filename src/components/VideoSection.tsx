@@ -14,7 +14,7 @@ const VideoSection = () => {
             Watch & Experience
           </h2>
           <p className="text-muted-foreground text-lg mb-10">
-            A glimpse into the spiritual atmosphere of Gurudwara Babe Ke
+            A glimpse into the spiritual atmosphere of Gurudwara Baba Ke
           </p>
           <div className="aspect-video rounded-lg overflow-hidden border border-border shadow-lg">
             <iframe
