@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import heroImage from "@/assets/hero-gurudwara.avif";
 
 const HeroSection = () => {
