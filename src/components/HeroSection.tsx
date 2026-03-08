@@ -15,7 +15,7 @@ const HeroSection = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center">
       <img
         src={heroImage}
-        alt="Gurudwara Babe Ke"
+        alt="Gurudwara Baba Ke"
         className="absolute inset-0 w-full h-full object-cover"
       />
       <div className="absolute inset-0 bg-gradient-hero" />
