@@ -50,7 +50,7 @@ const AboutSection = () => {
 
         <div className={`text-center mt-12 transition-all duration-700 ${cardsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`} style={{ transitionDelay: cardsVisible ? "500ms" : "0ms" }}>
           <a
-            href="https://youtube.com/@gurdwara_babe_ke_delhi?si=9amKMtu34i2qea6q"
+            href="https://www.youtube.com/@gurdwara_babe_ke_delhi"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-card border border-border hover:shadow-lg transition-all hover-scale"
