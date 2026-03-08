@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import khandaSymbol from "@/assets/khanda-symbol.png";
+import onkarSymbol from "@/assets/onkar-symbol.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
