@@ -47,6 +47,21 @@ const AboutSection = () => {
             </div>
           ))}
         </div>
+
+        <div className={`text-center mt-12 transition-all duration-700 ${cardsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`} style={{ transitionDelay: cardsVisible ? "500ms" : "0ms" }}>
+          <a
+            href="https://youtube.com/@gurdwara_babe_ke_delhi?si=9amKMtu34i2qea6q"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-card border border-border hover:shadow-lg transition-all hover-scale"
+          >
+            <svg viewBox="0 0 28 20" className="w-7 h-5" aria-hidden="true">
+              <rect rx="4" width="28" height="20" fill="#FF0000" />
+              <polygon points="11,4 11,16 21,10" fill="#FFF" />
+            </svg>
+            <span className="text-foreground font-medium text-sm">Watch us on YouTube</span>
+          </a>
+        </div>
       </div>
     </section>
   );
