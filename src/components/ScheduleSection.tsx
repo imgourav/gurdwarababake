@@ -4,7 +4,7 @@ const scheduleItems = [
   { time: "4:00 AM", event: "Amrit Vela — Early Morning Meditation" },
   { time: "5:00 AM", event: "Asa Di Var — Morning Kirtan" },
   { time: "6:30 AM", event: "Hukamnama — Daily Divine Order" },
-  { time: "8:00 AM - 12:00 PM", event: "Langar Seva — Morning Meals" },
+  { time: "24 Hours", event: "Langar Seva — Open All Day & Night" },
   { time: "7:00 PM", event: "Rehras Sahib — Evening Prayer" },
 ];
 
