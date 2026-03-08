@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import khandaSymbol from "@/assets/khanda-symbol.png";
+import onkarSymbol from "@/assets/onkarymbol.png";
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
         <a href="#home" className="flex items-center gap-2">
-          <img src={khandaSymbol} alt="Khanda" className="h-8 w-8" />
+          <img src={onkarSymbol} alt="Ik Onkar" className="h-8 w-8" />
           <span className="font-display text-lg font-bold text-foreground">
             Gurudwara Babe Ke
           </span>
