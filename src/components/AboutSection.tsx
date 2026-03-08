@@ -1,11 +1,11 @@
-import khandaSymbol from "@/assets/khanda-symbol.png";
+import onkarSymbol from "@/assets/onkarymbol.png";
 
 const AboutSection = () => {
   return (
     <section id="about" className="py-24 bg-gradient-section">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <img src={khandaSymbol} alt="Khanda" className="h-16 w-16 mx-auto mb-6 opacity-70" />
+          <img src={onkarSymbol} alt="Ik Onkar" className="h-16 w-16 mx-auto mb-6 opacity-70" />
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
             About Gurudwara Babe Ke
           </h2>
