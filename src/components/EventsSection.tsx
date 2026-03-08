@@ -5,9 +5,9 @@ const events = [
     desc: "Special weekly congregation with kirtan and katha.",
   },
   {
-    date: "Gurpurab Celebrations",
-    title: "Birth & Martyrdom Anniversaries",
-    desc: "Grand celebrations on Gurpurabs with Akhand Path and Nagar Kirtan.",
+    date: "2, 3, 4 January — Every Year",
+    title: "Annual Gurpurab Celebration",
+    desc: "Grand three-day Gurpurab celebration with Akhand Path, Kirtan Darbar, Nagar Kirtan, and special Langar Seva.",
   },
   {
     date: "Monthly",
