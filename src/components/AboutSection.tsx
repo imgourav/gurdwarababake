@@ -14,7 +14,7 @@ const AboutSection = () => {
         >
           <img src={onkarSymbol} alt="Ik Onkar" className="h-16 w-16 mx-auto mb-6 opacity-70" />
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
-            About Gurudwara Babe Ke
+            About Gurudwara Baba Ke
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8">
             Gurudwara Babe Ke, situated in the heart of New Delhi, is a revered place of worship
