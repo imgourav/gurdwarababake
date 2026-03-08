@@ -16,7 +16,7 @@ const HeroSection = () => {
       <img
         src={heroImage}
         alt="Gurudwara Baba Ke"
-        className="absolute inset-0 w-full h-full object-cover scale-[0.7]"
+        className="absolute inset-0 w-full h-full object-cover scale-[0.75]"
       />
       <div className="absolute inset-0 bg-gradient-hero" />
       <div className="relative z-10 text-center px-4 max-w-3xl animate-fade-in">
