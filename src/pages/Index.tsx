@@ -18,9 +18,6 @@ const Index = () => {
       <EventsSection />
       <ContactSection />
       <Footer />
-      <EventsSection />
-      <ContactSection />
-      <Footer />
     </div>
   );
 };
