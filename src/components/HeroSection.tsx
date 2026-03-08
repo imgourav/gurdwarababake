@@ -12,7 +12,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-foreground">
       <img
         src={heroImage}
         alt="Gurudwara Baba Ke"
