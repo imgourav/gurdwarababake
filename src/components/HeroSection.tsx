@@ -2,6 +2,15 @@ import { useMemo } from "react";
 import heroImage from "@/assets/hero-gurudwara.avif";
 
 const HeroSection = () => {
+  const todayDate = useMemo(() => {
+    return new Date().toLocaleDateString("en-IN", {
+      weekday: "long",
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    });
+  }, []);
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center">
       <img
