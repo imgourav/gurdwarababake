@@ -17,7 +17,7 @@ const AboutSection = () => {
             About Gurudwara Baba Ke
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-            Gurudwara Babe Ke, situated in the heart of New Delhi, is a revered place of worship
+            Gurudwara Baba Ke, situated in the heart of New Delhi, is a revered place of worship
             dedicated to the teachings of the Sikh Gurus. Our Gurudwara serves as a spiritual
             sanctuary where devotees gather for daily prayers, kirtan, and the sacred practice
             of langar — the community kitchen that feeds all, regardless of caste, creed, or background.

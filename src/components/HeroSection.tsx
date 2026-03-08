@@ -24,7 +24,7 @@ const HeroSection = () => {
           ੴ ਸਤਿ ਨਾਮੁ
         </p>
         <h1 className="font-display text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight animate-fade-in" style={{ animationDelay: "0.4s", animationFillMode: "both" }}>
-          Gurudwara <br /> Babe Ke
+          Gurudwara <br /> Baba Ke
         </h1>
         <p className="text-primary-foreground/60 text-sm font-body tracking-widest uppercase mb-2 animate-fade-in" style={{ animationDelay: "0.5s", animationFillMode: "both" }}>
           {todayDate}

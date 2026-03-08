@@ -24,7 +24,7 @@ const VideoSection = () => {
               style={{ border: 0 }}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              title="Gurudwara Babe Ke Video"
+              title="Gurudwara Baba Ke Video"
               loading="lazy"
             />
           </div>
