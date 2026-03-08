@@ -1,10 +1,17 @@
 import onkarSymbol from "@/assets/onkar-symbol.png";
+import { useScrollReveal } from "@/hooks/use-scroll-reveal";
 
 const AboutSection = () => {
+  const { ref, isVisible } = useScrollReveal();
+  const { ref: cardsRef, isVisible: cardsVisible } = useScrollReveal();
+
   return (
     <section id="about" className="py-24 bg-gradient-section">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto text-center">
+        <div
+          ref={ref}
+          className={`max-w-3xl mx-auto text-center transition-all duration-700 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+        >
           <img src={onkarSymbol} alt="Ik Onkar" className="h-16 w-16 mx-auto mb-6 opacity-70" />
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
             About Gurudwara Babe Ke
@@ -22,15 +29,16 @@ const AboutSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto">
+        <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto">
           {[
             { title: "Kirtan Seva", desc: "Daily recitation of Gurbani and devotional hymns" },
             { title: "Langar Seva", desc: "Free community kitchen serving meals to all visitors" },
             { title: "Community Service", desc: "Education programs, health camps, and social welfare" },
-          ].map((item) => (
+          ].map((item, i) => (
             <div
               key={item.title}
-              className="bg-card rounded-lg p-8 text-center border border-border hover:shadow-lg transition-shadow"
+              className={`bg-card rounded-lg p-8 text-center border border-border hover:shadow-lg transition-all duration-500 hover-scale ${cardsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
+              style={{ transitionDelay: cardsVisible ? `${i * 150}ms` : "0ms" }}
             >
               <h3 className="font-display text-xl font-semibold text-foreground mb-3">
                 {item.title}
