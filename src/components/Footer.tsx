@@ -8,7 +8,7 @@ const Footer = () => {
         <p className="font-display text-lg text-cream/80 mb-2">Gurudwara Babe Ke</p>
         <p className="text-cream/50 text-sm">New Delhi, India</p>
         <p className="text-cream/30 text-xs mt-6">
-          ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ
+          ਵਾਹਿਗੁਰੂ ਜੀ ਕੀ ਫ਼ਤਹਿ
         </p>
       </div>
     </footer>
