@@ -1,6 +1,16 @@
+import { useMemo } from "react";
 import heroImage from "@/assets/hero-gurudwara.avif";
 
 const HeroSection = () => {
+  const todayDate = useMemo(() => {
+    return new Date().toLocaleDateString("en-IN", {
+      weekday: "long",
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+    });
+  }, []);
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center">
       <img
@@ -16,6 +26,9 @@ const HeroSection = () => {
         <h1 className="font-display text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight animate-fade-in" style={{ animationDelay: "0.4s", animationFillMode: "both" }}>
           Gurudwara <br /> Babe Ke
         </h1>
+        <p className="text-primary-foreground/60 text-sm font-body tracking-widest uppercase mb-2 animate-fade-in" style={{ animationDelay: "0.5s", animationFillMode: "both" }}>
+          {todayDate}
+        </p>
         <p className="text-primary-foreground/80 text-lg md:text-xl font-light max-w-xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "0.6s", animationFillMode: "both" }}>
           A sacred place of worship, community service, and spiritual growth in New Delhi
         </p>
