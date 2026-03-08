@@ -1,4 +1,4 @@
-import khandaSymbol from "@/assets/khanda-symbol.png";
+import onkarSymbol from "@/assets/onkar-symbol.png";
 
 const Footer = () => {
   return (
