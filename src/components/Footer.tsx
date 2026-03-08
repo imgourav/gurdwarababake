@@ -1,4 +1,3 @@
-import { Youtube } from "lucide-react";
 import onkarSymbol from "@/assets/onkar-symbol.png";
 
 const Footer = () => {
