@@ -14,7 +14,7 @@ const VideoSection = () => {
             Watch & Experience
           </h2>
           <p className="text-muted-foreground text-lg mb-10">
-            A glimpse into the spiritual atmosphere of Gurudwara Babe Ke
+            A glimpse into the spiritual atmosphere of Gurudwara Baba Ke
           </p>
           <div className="aspect-video rounded-lg overflow-hidden border border-border shadow-lg">
             <iframe
@@ -24,7 +24,7 @@ const VideoSection = () => {
               style={{ border: 0 }}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
-              title="Gurudwara Babe Ke Video"
+              title="Gurudwara Baba Ke Video"
               loading="lazy"
             />
           </div>

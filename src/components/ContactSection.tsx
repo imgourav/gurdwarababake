@@ -50,7 +50,7 @@ const ContactSection = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Gurudwara Babe Ke Location"
+                title="Gurudwara Baba Ke Location"
               />
             </div>
           </div>
