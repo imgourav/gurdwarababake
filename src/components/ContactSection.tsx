@@ -18,7 +18,7 @@ const ContactSection = () => {
             <MapPin className="text-primary mt-1 shrink-0" size={22} />
             <div>
               <h3 className="font-display text-lg font-semibold text-foreground mb-1">Address</h3>
-              <p className="text-muted-foreground">Gurudwara Babe Ke, New Delhi, India</p>
+              <p className="text-muted-foreground">H35G+377, Shahabad Muhammadpur, Dwarka, Delhi, 110061</p>
             </div>
           </div>
 
