@@ -26,7 +26,7 @@ const ContactSection = () => {
             <Phone className="text-primary mt-1 shrink-0" size={22} />
             <div>
               <h3 className="font-display text-lg font-semibold text-foreground mb-1">Phone</h3>
-              <p className="text-muted-foreground">Contact the Gurudwara committee for inquiries</p>
+              <p className="text-muted-foreground">+91 97796 46346</p>
             </div>
           </div>
 
