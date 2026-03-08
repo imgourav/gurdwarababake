@@ -1,4 +1,4 @@
-import onkarSymbol from "@/assets/onkarymbol.png";
+import onkarSymbol from "@/assets/onkar-symbol.png";
 
 const Footer = () => {
   return (
