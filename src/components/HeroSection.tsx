@@ -2,6 +2,7 @@ import { useMemo, useState, useEffect, useCallback } from "react";
 import heroImage from "@/assets/hero-gurudwara.avif";
 import heroProjects from "@/assets/hero-projects.jpg";
 import heroBabaJi from "@/assets/hero-baba-ji.jpg";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const slides = [
   { src: heroImage, alt: "Gurudwara Baba Ke" },
@@ -11,6 +12,7 @@ const slides = [
 
 const HeroSection = () => {
   const [current, setCurrent] = useState(0);
+  const { t } = useLanguage();
 
   const todayDate = useMemo(() => {
     return new Date().toLocaleDateString("en-IN", {
@@ -67,10 +69,10 @@ const HeroSection = () => {
 
       <div className="relative z-10 text-center px-4 max-w-3xl animate-fade-in">
         <p className="text-gold-light font-body text-sm tracking-[0.3em] uppercase mb-4 animate-fade-in" style={{ animationDelay: "0.2s", animationFillMode: "both" }}>
-          ੴ ਸਤਿ ਨਾਮੁ
+          {t.hero.subtitle}
         </p>
         <h1 className="font-display text-5xl md:text-7xl font-bold text-primary-foreground mb-6 leading-tight animate-fade-in" style={{ animationDelay: "0.4s", animationFillMode: "both" }}>
-          Gurudwara <br /> Baba Ke
+          {t.hero.title1} <br /> {t.hero.title2}
         </h1>
         <p className="text-primary-foreground/60 text-sm font-body tracking-widest uppercase mb-2 animate-fade-in" style={{ animationDelay: "0.5s", animationFillMode: "both" }}>
           {todayDate}
@@ -80,7 +82,7 @@ const HeroSection = () => {
           className="inline-block bg-gradient-gold text-primary-foreground px-8 py-3 rounded-md font-medium text-sm tracking-wide hover:opacity-90 transition-opacity animate-fade-in"
           style={{ animationDelay: "0.8s", animationFillMode: "both" }}
         >
-          View Daily Schedule
+          {t.hero.cta}
         </a>
       </div>
     </section>
