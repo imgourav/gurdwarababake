@@ -1,8 +1,10 @@
 import { MapPin, Phone } from "lucide-react";
 import { useScrollReveal } from "@/hooks/use-scroll-reveal";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const ContactSection = () => {
   const { ref, isVisible } = useScrollReveal();
+  const { t } = useLanguage();
 
   return (
     <section id="contact" className="py-24 bg-background">
@@ -13,11 +15,9 @@ const ContactSection = () => {
         >
           <div className="text-center mb-16">
             <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Visit Us
+              {t.contact.heading}
             </h2>
-            <p className="text-muted-foreground text-lg">
-              We welcome all to our Gurudwara
-            </p>
+            <p className="text-muted-foreground text-lg">{t.contact.subtitle}</p>
           </div>
 
           <div className="max-w-4xl mx-auto space-y-10">
@@ -26,15 +26,15 @@ const ContactSection = () => {
                 <div className="flex items-start gap-4">
                   <MapPin className="text-primary mt-1 shrink-0" size={22} />
                   <div>
-                    <h3 className="font-display text-lg font-semibold text-foreground mb-1">Address</h3>
-                    <p className="text-muted-foreground">Shahabad Muhammadpur, Dwarka, Delhi, 110061</p>
+                    <h3 className="font-display text-lg font-semibold text-foreground mb-1">{t.contact.address}</h3>
+                    <p className="text-muted-foreground">{t.contact.addressValue}</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
                   <Phone className="text-primary mt-1 shrink-0" size={22} />
                   <div>
-                    <h3 className="font-display text-lg font-semibold text-foreground mb-1">Phone</h3>
+                    <h3 className="font-display text-lg font-semibold text-foreground mb-1">{t.contact.phone}</h3>
                     <p className="text-muted-foreground">+91 97796 46346</p>
                   </div>
                 </div>
