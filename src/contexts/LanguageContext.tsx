@@ -139,7 +139,16 @@ const translations = {
   },
 };
 
-type Translations = (typeof translations)["en"];
+interface Translations {
+  nav: { home: string; about: string; schedule: string; events: string; contact: string; siteName: string };
+  hero: { subtitle: string; title1: string; title2: string; cta: string };
+  about: { heading: string; para1: string; para2: string; kirtanTitle: string; kirtanDesc: string; langarTitle: string; langarDesc: string; communityTitle: string; communityDesc: string; youtube: string };
+  video: { heading: string; subtitle: string };
+  schedule: { heading: string; subtitle: string; items: { time: string; event: string }[] };
+  events: { heading: string; subtitle: string; items: { date: string; title: string; desc: string }[] };
+  contact: { heading: string; subtitle: string; address: string; addressValue: string; phone: string };
+  footer: { name: string; location: string };
+}
 
 interface LanguageContextType {
   language: Language;
@@ -153,7 +162,7 @@ export const LanguageProvider = ({ children }: { children: ReactNode }) => {
   const [language, setLanguage] = useState<Language>("en");
 
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t: translations[language] }}>
+    <LanguageContext.Provider value={{ language, setLanguage, t: translations[language] as Translations }}>
       {children}
     </LanguageContext.Provider>
   );
