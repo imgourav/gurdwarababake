@@ -8,8 +8,10 @@ const translations = {
     nav: {
       home: "Home",
       about: "About",
+      katha: "Katha",
       schedule: "Schedule",
       events: "Events",
+      babaJi: "Baba Ji",
       contact: "Contact",
       siteName: "Gurudwara Baba Ke Delhi",
     },
@@ -32,6 +34,11 @@ const translations = {
       communityTitle: "Community Service",
       communityDesc: "Education programs, health camps, and social welfare",
       youtube: "Watch us on YouTube",
+    },
+    // Katha
+    katha: {
+      heading: "Katha",
+      subtitle: "Listen to spiritual discourses and Gurbani katha",
     },
     // Video
     video: {
@@ -78,8 +85,10 @@ const translations = {
     nav: {
       home: "ਮੁੱਖ ਪੰਨਾ",
       about: "ਜਾਣਕਾਰੀ",
+      katha: "ਕਥਾ",
       schedule: "ਸਮਾਂ-ਸਾਰਣੀ",
       events: "ਸਮਾਗਮ",
+      babaJi: "ਬਾਬਾ ਜੀ",
       contact: "ਸੰਪਰਕ",
       siteName: "ਗੁਰਦੁਆਰਾ ਬਾਬਾ ਕੇ ਦਿੱਲੀ",
     },
@@ -100,6 +109,10 @@ const translations = {
       communityTitle: "ਸਮਾਜ ਸੇਵਾ",
       communityDesc: "ਸਿੱਖਿਆ ਪ੍ਰੋਗਰਾਮ, ਸਿਹਤ ਕੈਂਪ ਅਤੇ ਸਮਾਜ ਭਲਾਈ",
       youtube: "YouTube 'ਤੇ ਸਾਨੂੰ ਵੇਖੋ",
+    },
+    katha: {
+      heading: "ਕਥਾ",
+      subtitle: "ਗੁਰਬਾਣੀ ਕਥਾ ਅਤੇ ਅਧਿਆਤਮਿਕ ਉਪਦੇਸ਼ ਸੁਣੋ",
     },
     video: {
       heading: "ਵੇਖੋ ਅਤੇ ਅਨੁਭਵ ਕਰੋ",
@@ -140,9 +153,10 @@ const translations = {
 };
 
 interface Translations {
-  nav: { home: string; about: string; schedule: string; events: string; contact: string; siteName: string };
+  nav: { home: string; about: string; katha: string; schedule: string; events: string; babaJi: string; contact: string; siteName: string };
   hero: { subtitle: string; title1: string; title2: string; cta: string };
   about: { heading: string; para1: string; para2: string; kirtanTitle: string; kirtanDesc: string; langarTitle: string; langarDesc: string; communityTitle: string; communityDesc: string; youtube: string };
+  katha: { heading: string; subtitle: string };
   video: { heading: string; subtitle: string };
   schedule: { heading: string; subtitle: string; items: { time: string; event: string }[] };
   events: { heading: string; subtitle: string; items: { date: string; title: string; desc: string }[] };

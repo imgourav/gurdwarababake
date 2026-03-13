@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
+import KathaSection from "@/components/KathaSection";
 import VideoSection from "@/components/VideoSection";
 import ScheduleSection from "@/components/ScheduleSection";
 import EventsSection from "@/components/EventsSection";
@@ -12,6 +13,7 @@ import Footer from "@/components/Footer";
 const pathToSectionId: Record<string, string> = {
   "/": "home",
   "/about": "about",
+  "/katha": "katha",
   "/schedule": "schedule",
   "/events": "events",
   "/contact": "contact",
@@ -36,6 +38,7 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <AboutSection />
+      <KathaSection />
       <VideoSection />
       <ScheduleSection />
       <EventsSection />

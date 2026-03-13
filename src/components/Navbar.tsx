@@ -11,8 +11,10 @@ const Navbar = () => {
   const navLinks = [
     { label: t.nav.home, to: "/" },
     { label: t.nav.about, to: "/about" },
+    { label: t.nav.katha, to: "/katha" },
     { label: t.nav.schedule, to: "/schedule" },
     { label: t.nav.events, to: "/events" },
+    { label: t.nav.babaJi, to: "/baba-ji" },
     { label: t.nav.contact, to: "/contact" },
   ];
 

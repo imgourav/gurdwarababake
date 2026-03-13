@@ -16,6 +16,7 @@ export default {
       fontFamily: {
         display: ['"Playfair Display"', 'serif'],
         body: ['Lato', 'sans-serif'],
+        history: ['Merriweather', 'Georgia', 'serif'],
       },
       colors: {
         gold: {
