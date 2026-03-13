@@ -1,7 +1,7 @@
 User-agent: Googlebot
 Allow: /
 
-Sitemap: https://gurudwarababake.com/sitemap.xml
+Sitemap: https://gurdwarababake.vercel.app/sitemap.xml
 
 User-agent: Bingbot
 Allow: /

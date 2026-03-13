@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X, Globe } from "lucide-react";
+import { Link } from "react-router-dom";
 import onkarSymbol from "@/assets/onkar-symbol.png";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -8,34 +9,34 @@ const Navbar = () => {
   const { language, setLanguage, t } = useLanguage();
 
   const navLinks = [
-    { label: t.nav.home, href: "#home" },
-    { label: t.nav.about, href: "#about" },
-    { label: t.nav.schedule, href: "#schedule" },
-    { label: t.nav.events, href: "#events" },
-    { label: t.nav.contact, href: "#contact" },
+    { label: t.nav.home, to: "/" },
+    { label: t.nav.about, to: "/about" },
+    { label: t.nav.schedule, to: "/schedule" },
+    { label: t.nav.events, to: "/events" },
+    { label: t.nav.contact, to: "/contact" },
   ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
-        <a href="#home" className="flex items-center gap-2">
+        <Link to="/" className="flex items-center gap-2">
           <img src={onkarSymbol} alt="Ik Onkar" className="h-8 w-8" />
           <span className="font-display text-lg font-bold text-foreground">
             {t.nav.siteName}
           </span>
-        </a>
+        </Link>
 
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-8">
           <ul className="flex items-center gap-8">
             {navLinks.map((link) => (
-              <li key={link.href}>
-                <a
-                  href={link.href}
+              <li key={link.to}>
+                <Link
+                  to={link.to}
                   className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors"
                 >
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
@@ -74,14 +75,14 @@ const Navbar = () => {
         <div className="md:hidden bg-background border-b border-border">
           <ul className="flex flex-col items-center gap-4 py-6">
             {navLinks.map((link) => (
-              <li key={link.href}>
-                <a
-                  href={link.href}
+              <li key={link.to}>
+                <Link
+                  to={link.to}
                   onClick={() => setOpen(false)}
                   className="text-base font-medium text-muted-foreground hover:text-primary transition-colors"
                 >
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
