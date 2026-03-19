@@ -14,7 +14,7 @@ const Navbar = () => {
     { label: t.nav.katha, to: "/katha" },
     { label: t.nav.schedule, to: "/schedule" },
     { label: t.nav.events, to: "/events" },
-    { label: t.nav.babaJi, to: "/baba-ji" },
+    { label: t.nav.babaJiHistory, to: "/baba-ji" },
     { label: t.nav.contact, to: "/contact" },
   ];
 

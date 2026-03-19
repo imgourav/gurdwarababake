@@ -11,7 +11,7 @@ const translations = {
       katha: "Katha",
       schedule: "Schedule",
       events: "Events",
-      babaJi: "Baba Ji",
+      babaJiHistory: "Baba Ji History",
       contact: "Contact",
       siteName: "Gurudwara Baba Ke Delhi",
     },
@@ -80,6 +80,71 @@ const translations = {
       name: "Gurudwara Baba Ke",
       location: "New Delhi, India",
     },
+    babaJiHistory: {
+      hero: {
+        badge: "His Holiness",
+        title: "Sant Baba Nahar Singh Ji",
+        subtitle: "Sunheranwale",
+        tagline: "A life dedicated to faith, seva, and the teachings of the Sikh Gurus",
+      },
+      earlyLife: {
+        eyebrow: "Early Life",
+        heading: "Birth & Education",
+        p1: "His Holiness, Sant Baba Nahar Singh Ji, Sunheranwale was born in the village of Daudhar, District Moga, Punjab, India. His father was S. Nihal Singh Ji and mother Mata Bachan Kaur Ji.",
+        p2: "Baba Ji was initially educated in village Daudhar and then went to Moga and Delhi for higher education. He attained many qualifications, including Engineering and training as a Pilot. Baba Ji has a Texan 2nd World War plane which has recently been restored.",
+      },
+      nanaksar: {
+        range: "1950 – 1960",
+        heading: "Nanaksar & Spiritual Path",
+        p1: "From 1950 to 1960, Baba Ji assisted Sant Baba Isher Ji, Kaleranwale in construction of the Nanaksar Gurdwara and sarower, in memory of his grandfather the late great Sant Baba Nand Singh Ji, Kaleranwale. Baba Ji during this period would also work.",
+        p2: "Baba Ji became a Sant with the blessings of His Holiness, Sant Baba Darbari Das Ji of Village Lopon, Dist. Moga.",
+      },
+      servicePunjab: {
+        heading: "Service to Punjab",
+        p1: "During the 1960s, Baba Ji organised the preparation and construction of many hundreds of miles of roads linking villages to towns and cities in the Punjab.",
+        p2: "In 1960, Baba Ji went to Shri Hemkunt Sahib, Uttarakhand—situated 15,000 ft above sea level in the Himalayan ranges of Northern India—to the site where Guru Gobind Singh Ji had prayed and repeated God’s name many years ago.",
+      },
+      burjSidwan: {
+        range: "1961 – 1963",
+        heading: "Village Burj Sidwan",
+        p1: "In 1961, Baba Ji went to Village Burj Sidwan, Dist Malout, Punjab. He spent time remembering God and got the local villagers to assist in preparing the roads in the area. Baba Ji was at the time known as “Burjawale”.",
+        p2: "Baba Ji would always ensure that langar was available for all the volunteers and would personally serve langar to them. He remained in the village until 1963.",
+        p3: "Baba Ji acquired land in 1982 and the Bhora Sahib Gurdwara is being constructed on this site. After leaving the Malout area in 1963, Baba Ji made another trip to Shri Hemkunt Sahib.",
+      },
+      sunher: {
+        eyebrow: "Village Sunher",
+        heading: "The Name “Sunheranwale”",
+        p1: "After returning to the Punjab, Baba Ji went to village Sunher, Dist. Ferozepur. Baba Ji used to stay on the land where there is now a school for many years.",
+        p2: "Baba Ji constructed a Gurdwara in the village in memory of the visit made by the Sixth Guru, Guru Hargobind Ji. He also constructed many miles of road in the Ferozepur area.",
+        quote: "From this time, Baba Ji became known as “Sunheranwale”",
+      },
+      recognition: {
+        heading: "Recognition & Global Service",
+        p1: "From his early days, Baba Ji has been involved in social, community and religious projects all over India. In 1988 he received the Social Worker of the Year award from the Indian Government for his outstanding contributions over the decades for helping the underprivileged and socially disadvantaged.",
+        p2: "He has been instrumental in building numerous schools, colleges, hospitals and Gurdwaras not only in India but also in many other countries.",
+      },
+      jahraPeer: {
+        heading: "Jahra Peer & Guru Hargobind Ji",
+        p1: "Guru Nanak Dev Ji met Jahra Peer, a Muslim Saint, on his travels and told him to remember God and stated that he would come and bless him when he came in his sixth form. Jahra Peer continued to remember God.",
+        p2: "When Guru Hargobind Ji (the sixth Guru) came to Village Sunher, Jahra Peer had become very old and fragile. Guru Ji came to Jahra Peer and blessed him. Soon after this Jahra Peer passed away. Sant’s and Peer’s are sent by God to help all the people.",
+        p3: "His Holiness, Sant Baba Nahar Singh Ji came to the area in 1964 and found the site where Jahra Peer had been buried. He had the whole area cleared and tidied and has now constructed a Gurdwara on the site in memory of the Great Jahra Peer and named the place:",
+        place: "Gurdwara Babe Ke, Jahra Peer",
+      },
+      closing: {
+        p1: "Baba Ji is known and respected worldwide. He preaches having faith in God and Guru Nanak Dev Ji’s blessings of Nam, Dan and Ishnan to all. Baba Ji has travelled all over the world and met with people from various religions, communities and social standing.",
+        p2: "His Holiness has set up projects throughout the world which aim to detail the journeys, teachings and preachings of the Ten Gurus and the blessings of the Aad Shri Guru Granth Sahib.",
+        quote:
+          "Sants come into this world with the blessings of God. They perform the duties they have been sent to perform on this earth and then depart—but their names and blessings remain with us forever, if we have faith.",
+      },
+      backToHome: "Back to Home",
+      images: {
+        earlyYearsAlt: "Baba Ji - early years placeholder",
+        hemkuntAlt: "Shri Hemkunt Sahib placeholder",
+        burjAlt: "Burj Sidwan - langar seva placeholder",
+        sunherAlt: "Gurdwara at village Sunher placeholder",
+        jahraAlt: "Guru Hargobind Ji blessing Jahra Peer placeholder",
+      },
+    },
   },
   pa: {
     nav: {
@@ -88,7 +153,7 @@ const translations = {
       katha: "ਕਥਾ",
       schedule: "ਸਮਾਂ-ਸਾਰਣੀ",
       events: "ਸਮਾਗਮ",
-      babaJi: "ਬਾਬਾ ਜੀ",
+      babaJiHistory: "ਬਾਬਾ ਜੀ ਇਤਿਹਾਸ",
       contact: "ਸੰਪਰਕ",
       siteName: "ਗੁਰਦੁਆਰਾ ਬਾਬਾ ਕੇ ਦਿੱਲੀ",
     },
@@ -149,11 +214,76 @@ const translations = {
       name: "ਗੁਰਦੁਆਰਾ ਬਾਬਾ ਕੇ",
       location: "ਨਵੀਂ ਦਿੱਲੀ, ਭਾਰਤ",
     },
+    babaJiHistory: {
+      hero: {
+        badge: "ਧੰਨ ਧੰਨ",
+        title: "ਸੰਤ ਬਾਬਾ ਨਹਾਰ ਸਿੰਘ ਜੀ",
+        subtitle: "ਸੁਨਹੇਰਾਂ ਵਾਲੇ",
+        tagline: "ਸ਼ਰਧਾ, ਸੇਵਾ ਅਤੇ ਸਿੱਖ ਗੁਰੂਆਂ ਦੀਆਂ ਸਿੱਖਿਆਵਾਂ ਨੂੰ ਸਮਰਪਿਤ ਜੀਵਨ",
+      },
+      earlyLife: {
+        eyebrow: "ਸ਼ੁਰੂਆਤੀ ਜੀਵਨ",
+        heading: "ਜਨਮ ਅਤੇ ਸਿੱਖਿਆ",
+        p1: "ਸੰਤ (ਮਹਾਪੁਰਖ) ਬਾਬਾ ਨਹਾਰ ਸਿੰਘ ਜੀ ਸੁਨਹੇਰਾਂ ਵਾਲੇ ਦਾ ਜਨਮ ਪਿੰਡ ਦੌਧਰ, ਜ਼ਿਲ੍ਹਾ ਮੋਗਾ, ਪੰਜਾਬ (ਭਾਰਤ) ਵਿੱਚ ਹੋਇਆ। ਆਪ ਦੇ ਪਿਤਾ ਸ. ਨਿਹਾਲ ਸਿੰਘ ਜੀ ਅਤੇ ਮਾਤਾ ਮਾਤਾ ਬਚਨ ਕੌਰ ਜੀ ਸਨ।",
+        p2: "ਬਾਬਾ ਜੀ ਨੇ ਸ਼ੁਰੂਆਤੀ ਸਿੱਖਿਆ ਪਿੰਡ ਦੌਧਰ ਵਿੱਚ ਪ੍ਰਾਪਤ ਕੀਤੀ, ਫਿਰ ਮੋਗਾ ਅਤੇ ਉੱਚ ਸਿੱਖਿਆ ਲਈ ਦਿੱਲੀ ਗਏ। ਬਾਬਾ ਜੀ ਨੇ ਕਈ ਯੋਗਤਾਵਾਂ ਹਾਸਲ ਕੀਤੀਆਂ, ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਇੰਜੀਨੀਅਰਿੰਗ ਅਤੇ ਪਾਇਲਟ ਦੀ ਟ੍ਰੇਨਿੰਗ ਵੀ ਸ਼ਾਮਲ ਸੀ। ਬਾਬਾ ਜੀ ਕੋਲ ਟੈਕਸਨ (Texan) ਦੂਜੇ ਵਿਸ਼ਵ ਯੁੱਧ ਦਾ ਇੱਕ ਜਹਾਜ਼ ਵੀ ਸੀ, ਜੋ ਹਾਲ ਹੀ ਵਿੱਚ ਰੀਸਟੋਰ ਕੀਤਾ ਗਿਆ।",
+      },
+      nanaksar: {
+        range: "1950 – 1960",
+        heading: "ਨਾਨਕਸਰ ਅਤੇ ਅਧਿਆਤਮਿਕ ਮਾਰਗ",
+        p1: "1950 ਤੋਂ 1960 ਤੱਕ ਬਾਬਾ ਜੀ ਨੇ ਸੰਤ ਬਾਬਾ ਇਸਰ ਜੀ, ਕਾਲੇਰਾਂ ਵਾਲਿਆਂ ਦੀ ਮਦਦ ਨਾਲ ਨਾਨਕਸਰ ਗੁਰਦੁਆਰਾ ਅਤੇ ਸਰੋਵਰ ਦੇ ਨਿਰਮਾਣ ਵਿੱਚ ਸਹਿਯੋਗ ਕੀਤਾ, ਜੋ ਆਪਣੇ ਦਾਦਾ ਜੀ ਮਹਾਨ ਸੰਤ ਬਾਬਾ ਨੰਦ ਸਿੰਘ ਜੀ, ਕਾਲੇਰਾਂ ਵਾਲਿਆਂ ਦੀ ਯਾਦ ਵਿੱਚ ਬਣਾਇਆ ਗਿਆ। ਇਸ ਦੌਰਾਨ ਬਾਬਾ ਜੀ ਕੰਮ ਵੀ ਕਰਦੇ ਰਹੇ।",
+        p2: "ਬਾਬਾ ਜੀ ਨੂੰ ਪਿੰਡ ਲੋਪੋਂ, ਜ਼ਿਲ੍ਹਾ ਮੋਗਾ ਦੇ ਸੰਤ ਬਾਬਾ ਦਰਬਾਰੀ ਦਾਸ ਜੀ ਦੀ ਕਿਰਪਾ ਨਾਲ ਸੰਤ ਪਦਵੀ ਪ੍ਰਾਪਤ ਹੋਈ।",
+      },
+      servicePunjab: {
+        heading: "ਪੰਜਾਬ ਲਈ ਸੇਵਾ",
+        p1: "1960 ਦੇ ਦਹਾਕੇ ਦੌਰਾਨ ਬਾਬਾ ਜੀ ਨੇ ਪੰਜਾਬ ਵਿੱਚ ਪਿੰਡਾਂ ਨੂੰ ਸ਼ਹਿਰਾਂ ਨਾਲ ਜੋੜਨ ਵਾਲੀਆਂ ਬਹੁਤ ਸਾਰੀਆਂ ਸੜਕਾਂ ਦੀ ਤਿਆਰੀ ਅਤੇ ਨਿਰਮਾਣ ਦਾ ਪ੍ਰਬੰਧ ਕੀਤਾ।",
+        p2: "1960 ਵਿੱਚ ਬਾਬਾ ਜੀ ਸ਼੍ਰੀ ਹੇਮਕੁੰਟ ਸਾਹਿਬ, ਉੱਤਰਾਖੰਡ ਗਏ—ਜੋ ਹਿਮਾਲਿਆ ਦੀਆਂ ਰੇਂਜਾਂ ਵਿੱਚ ਸਮੁੰਦਰ ਤਲ ਤੋਂ ਲਗਭਗ 15,000 ਫੁੱਟ ਉੱਚਾਈ ‘ਤੇ ਸਥਿਤ ਹੈ—ਉਸ ਥਾਂ ਜਿੱਥੇ ਕਦੇ ਸ੍ਰੀ ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਜੀ ਨੇ ਅਰਦਾਸ ਅਤੇ ਨਾਮ ਜਪਿਆ ਸੀ।",
+      },
+      burjSidwan: {
+        range: "1961 – 1963",
+        heading: "ਪਿੰਡ ਬੁਰਜ ਸਿਡਵਾਂ",
+        p1: "1961 ਵਿੱਚ ਬਾਬਾ ਜੀ ਪਿੰਡ ਬੁਰਜ ਸਿਡਵਾਂ, ਜ਼ਿਲ੍ਹਾ ਮਲੌਟ (ਪੰਜਾਬ) ਗਏ। ਬਾਬਾ ਜੀ ਨੇ ਨਾਮ ਸਿਮਰਨ ਕੀਤਾ ਅਤੇ ਨਾਲ ਹੀ ਇਲਾਕੇ ਵਿੱਚ ਸੜਕਾਂ ਦੀ ਤਿਆਰੀ ਲਈ ਪਿੰਡ ਵਾਸੀਆਂ ਨੂੰ ਪ੍ਰੇਰਿਤ ਕਰਕੇ ਸੇਵਾ ਵਿੱਚ ਜੋੜਿਆ। ਉਸ ਸਮੇਂ ਬਾਬਾ ਜੀ ਨੂੰ “ਬੁਰਜਾਂ ਵਾਲੇ” ਕਿਹਾ ਜਾਂਦਾ ਸੀ।",
+        p2: "ਬਾਬਾ ਜੀ ਹਰ ਵੇਲੇ ਇਹ ਯਕੀਨੀ ਬਣਾਉਂਦੇ ਕਿ ਸੇਵਾਦਾਰਾਂ ਲਈ ਲੰਗਰ ਉਪਲਬਧ ਹੋਵੇ ਅਤੇ ਆਪ ਖੁਦ ਲੰਗਰ ਛਕਾਉਂਦੇ/ਵੰਡਦੇ ਸਨ। ਬਾਬਾ ਜੀ 1963 ਤੱਕ ਉਸ ਪਿੰਡ ਵਿੱਚ ਰਹੇ।",
+        p3: "1982 ਵਿੱਚ ਬਾਬਾ ਜੀ ਨੇ ਜ਼ਮੀਨ ਪ੍ਰਾਪਤ ਕੀਤੀ ਅਤੇ ਉਸ ਸਥਾਨ ‘ਤੇ ਭੋਰਾ ਸਾਹਿਬ ਗੁਰਦੁਆਰਾ ਦਾ ਨਿਰਮਾਣ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ। 1963 ਵਿੱਚ ਮਲੌਟ ਇਲਾਕਾ ਛੱਡਣ ਤੋਂ ਬਾਅਦ ਬਾਬਾ ਜੀ ਨੇ ਇੱਕ ਵਾਰ ਫਿਰ ਸ਼੍ਰੀ ਹੇਮਕੁੰਟ ਸਾਹਿਬ ਦੀ ਯਾਤਰਾ ਕੀਤੀ।",
+      },
+      sunher: {
+        eyebrow: "ਪਿੰਡ ਸੁਨਹੇਰ",
+        heading: "“ਸੁਨਹੇਰਾਂ ਵਾਲੇ” ਨਾਮ",
+        p1: "ਪੰਜਾਬ ਵਾਪਸ ਆ ਕੇ ਬਾਬਾ ਜੀ ਪਿੰਡ ਸੁਨਹੇਰ, ਜ਼ਿਲ੍ਹਾ ਫਿਰੋਜ਼ਪੁਰ ਗਏ। ਬਾਬਾ ਜੀ ਕਈ ਸਾਲ ਉਸ ਜ਼ਮੀਨ ‘ਤੇ ਰਹੇ ਜਿੱਥੇ ਹੁਣ ਇੱਕ ਸਕੂਲ ਹੈ।",
+        p2: "ਬਾਬਾ ਜੀ ਨੇ ਛੇਵੇਂ ਪਾਤਸ਼ਾਹ ਸ੍ਰੀ ਗੁਰੂ ਹਰਿਗੋਬਿੰਦ ਸਾਹਿਬ ਜੀ ਦੀ ਆਮਦ ਦੀ ਯਾਦ ਵਿੱਚ ਪਿੰਡ ਵਿੱਚ ਇੱਕ ਗੁਰਦੁਆਰਾ ਬਣਾਇਆ। ਬਾਬਾ ਜੀ ਨੇ ਫਿਰੋਜ਼ਪੁਰ ਇਲਾਕੇ ਵਿੱਚ ਵੀ ਕਈ ਮੀਲ ਸੜਕਾਂ ਦਾ ਨਿਰਮਾਣ ਕਰਵਾਇਆ।",
+        quote: "ਇਸ ਸਮੇਂ ਤੋਂ ਬਾਬਾ ਜੀ “ਸੁਨਹੇਰਾਂ ਵਾਲੇ” ਦੇ ਨਾਂ ਨਾਲ ਪ੍ਰਸਿੱਧ ਹੋਏ।",
+      },
+      recognition: {
+        heading: "ਮਾਨ-ਸਨਮਾਨ ਅਤੇ ਵਿਸ਼ਵ ਪੱਧਰੀ ਸੇਵਾ",
+        p1: "ਸ਼ੁਰੂਆਤੀ ਦਿਨਾਂ ਤੋਂ ਹੀ ਬਾਬਾ ਜੀ ਸਮਾਜਿਕ, ਕਮਿਊਨਿਟੀ ਅਤੇ ਧਾਰਮਿਕ ਪ੍ਰੋਜੈਕਟਾਂ ਵਿੱਚ ਸਰਗਰਮ ਰਹੇ। 1988 ਵਿੱਚ ਗਰੀਬ ਅਤੇ ਪਿੱਛੜੇ ਵਰਗਾਂ ਲਈ ਲੰਮੇ ਸਮੇਂ ਤੱਕ ਕੀਤੀਆਂ ਸੇਵਾਵਾਂ ਦੇ ਲਈ ਭਾਰਤ ਸਰਕਾਰ ਵੱਲੋਂ ਬਾਬਾ ਜੀ ਨੂੰ “ਸੋਸ਼ਲ ਵਰਕਰ ਆਫ਼ ਦ ਯੀਅਰ” ਦਾ ਇਨਾਮ ਮਿਲਿਆ।",
+        p2: "ਬਾਬਾ ਜੀ ਨੇ ਨਾ ਸਿਰਫ਼ ਭਾਰਤ ਵਿੱਚ, ਸਗੋਂ ਕਈ ਹੋਰ ਦੇਸ਼ਾਂ ਵਿੱਚ ਵੀ ਸਕੂਲ, ਕਾਲਜ, ਹਸਪਤਾਲ ਅਤੇ ਗੁਰਦੁਆਰੇ ਬਣਵਾਉਣ ਵਿੱਚ ਵੱਡਾ ਯੋਗਦਾਨ ਪਾਇਆ।",
+      },
+      jahraPeer: {
+        heading: "ਝਹਿਰਾ ਪੀਰ ਅਤੇ ਗੁਰੂ ਹਰਿਗੋਬਿੰਦ ਸਾਹਿਬ ਜੀ",
+        p1: "ਉਦਾਸੀਆਂ ਦੌਰਾਨ ਸ੍ਰੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਦੀ ਝਹਿਰਾ ਪੀਰ (ਇੱਕ ਮੁਸਲਮਾਨ ਫਕੀਰ/ਸੰਤ) ਨਾਲ ਮੁਲਾਕਾਤ ਹੋਈ। ਗੁਰੂ ਜੀ ਨੇ ਉਨ੍ਹਾਂ ਨੂੰ ਵਾਹਿਗੁਰੂ ਦਾ ਸਿਮਰਨ ਕਰਨ ਲਈ ਕਿਹਾ ਅਤੇ ਦੱਸਿਆ ਕਿ ਛੇਵੇਂ ਸਰੂਪ ਵਿੱਚ ਆ ਕੇ ਅਸੀਸ ਦੇਣਗੇ। ਝਹਿਰਾ ਪੀਰ ਜੀ ਸਿਮਰਨ ਕਰਦੇ ਰਹੇ।",
+        p2: "ਜਦੋਂ ਛੇਵੇਂ ਪਾਤਸ਼ਾਹ ਸ੍ਰੀ ਗੁਰੂ ਹਰਿਗੋਬਿੰਦ ਸਾਹਿਬ ਜੀ ਪਿੰਡ ਸੁਨਹੇਰ ਆਏ ਤਾਂ ਝਹਿਰਾ ਪੀਰ ਬਹੁਤ ਬੁੱਢੇ ਅਤੇ ਕਮਜ਼ੋਰ ਹੋ ਚੁੱਕੇ ਸਨ। ਗੁਰੂ ਜੀ ਨੇ ਆ ਕੇ ਅਸੀਸ ਬਖ਼ਸ਼ੀ। ਕੁਝ ਸਮੇਂ ਬਾਅਦ ਝਹਿਰਾ ਪੀਰ ਜੀ ਜੋਤੀ ਜੋਤ ਸਮਾ ਗਏ। ਸੰਤ ਅਤੇ ਪੀਰ ਪਰਮੇਸ਼ਰ ਵੱਲੋਂ ਲੋਕਾਂ ਦੀ ਭਲਾਈ ਲਈ ਭੇਜੇ ਜਾਂਦੇ ਹਨ।",
+        p3: "1964 ਵਿੱਚ ਸੰਤ ਬਾਬਾ ਨਹਾਰ ਸਿੰਘ ਜੀ ਉਸ ਇਲਾਕੇ ਵਿੱਚ ਆਏ ਅਤੇ ਝਹਿਰਾ ਪੀਰ ਜੀ ਦੀ ਸਮਾਧ ਵਾਲਾ ਸਥਾਨ ਲੱਭਿਆ। ਬਾਬਾ ਜੀ ਨੇ ਸਾਰੀ ਜਗ੍ਹਾ ਸਾਫ਼ ਕਰਵਾਈ ਅਤੇ ਮਹਾਨ ਝਹਿਰਾ ਪੀਰ ਜੀ ਦੀ ਯਾਦ ਵਿੱਚ ਓਥੇ ਗੁਰਦੁਆਰਾ ਬਣਾਇਆ ਅਤੇ ਨਾਮ ਰੱਖਿਆ:",
+        place: "ਗੁਰਦੁਆਰਾ ਬਾਬੇ ਕੇ, ਝਹਿਰਾ ਪੀਰ",
+      },
+      closing: {
+        p1: "ਬਾਬਾ ਜੀ ਦੁਨੀਆ ਭਰ ਵਿੱਚ ਮਸ਼ਹੂਰ ਅਤੇ ਆਦਰਯੋਗ ਹਨ। ਬਾਬਾ ਜੀ ਵਾਹਿਗੁਰੂ ‘ਤੇ ਪੂਰਾ ਭਰੋਸਾ ਰੱਖਣ ਅਤੇ ਸ੍ਰੀ ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਦੀਆਂ ਨਾਮ, ਦਾਨ ਅਤੇ ਇਸਨਾਨ ਦੀਆਂ ਬਰਕਤਾਂ ਬਾਰੇ ਉਪਦੇਸ਼ ਦਿੰਦੇ ਹਨ। ਬਾਬਾ ਜੀ ਨੇ ਵਿਸ਼ਵ ਭਰ ਵਿੱਚ ਯਾਤਰਾ ਕੀਤੀ ਅਤੇ ਵੱਖ-ਵੱਖ ਧਰਮਾਂ, ਸਮਾਜਾਂ ਅਤੇ ਵਰਗਾਂ ਦੇ ਲੋਕਾਂ ਨਾਲ ਮਿਲੇ।",
+        p2: "ਆਪ ਨੇ ਦੁਨੀਆ ਭਰ ਵਿੱਚ ਅਜਿਹੇ ਪ੍ਰੋਜੈਕਟ ਸ਼ੁਰੂ ਕੀਤੇ ਜੋ ਦਸ ਗੁਰੂ ਸਾਹਿਬਾਨ ਦੀਆਂ ਯਾਤਰਾਵਾਂ, ਸਿੱਖਿਆਵਾਂ ਅਤੇ ਉਪਦੇਸ਼ਾਂ, ਅਤੇ ਆਦਿ ਸ਼੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ ਦੀਆਂ ਬਖ਼ਸ਼ਿਸ਼ਾਂ ਨੂੰ ਦਰਸਾਉਂਦੇ ਹਨ।",
+        quote:
+          "ਸੰਤ ਪਰਮੇਸ਼ਰ ਦੀ ਬਖ਼ਸ਼ਿਸ਼ ਨਾਲ ਇਸ ਸੰਸਾਰ ਵਿੱਚ ਆਉਂਦੇ ਹਨ। ਉਹ ਜੋ ਕਾਰਜ ਉਨ੍ਹਾਂ ਨੂੰ ਸੌਂਪਿਆ ਜਾਂਦਾ ਹੈ ਉਹ ਪੂਰਾ ਕਰਕੇ ਸੰਸਾਰ ਤੋਂ ਪ੍ਰਸਥਾਨ ਕਰ ਜਾਂਦੇ ਹਨ, ਪਰ ਜੇ ਸਾਡੀ ਸ਼ਰਧਾ ਹੋਵੇ ਤਾਂ ਉਨ੍ਹਾਂ ਦੇ ਨਾਮ ਅਤੇ ਬਰਕਤਾਂ ਸਦਾ ਸਾਡੇ ਨਾਲ ਰਹਿੰਦੀਆਂ ਹਨ।",
+      },
+      backToHome: "ਮੁੱਖ ਪੰਨੇ ‘ਤੇ ਵਾਪਸ",
+      images: {
+        earlyYearsAlt: "ਬਾਬਾ ਜੀ — ਸ਼ੁਰੂਆਤੀ ਜੀਵਨ (ਪਲੇਸਹੋਲਡਰ)",
+        hemkuntAlt: "ਸ਼੍ਰੀ ਹੇਮਕੁੰਟ ਸਾਹਿਬ (ਪਲੇਸਹੋਲਡਰ)",
+        burjAlt: "ਬੁਰਜ ਸਿਡਵਾਂ — ਲੰਗਰ ਸੇਵਾ (ਪਲੇਸਹੋਲਡਰ)",
+        sunherAlt: "ਪਿੰਡ ਸੁਨਹੇਰ ਦਾ ਗੁਰਦੁਆਰਾ (ਪਲੇਸਹੋਲਡਰ)",
+        jahraAlt: "ਗੁਰੂ ਹਰਿਗੋਬਿੰਦ ਜੀ ਦੀ ਅਸੀਸ — ਝਹਿਰਾ ਪੀਰ (ਪਲੇਸਹੋਲਡਰ)",
+      },
+    },
   },
 };
 
 interface Translations {
-  nav: { home: string; about: string; katha: string; schedule: string; events: string; babaJi: string; contact: string; siteName: string };
+  nav: { home: string; about: string; katha: string; schedule: string; events: string; babaJiHistory: string; contact: string; siteName: string };
   hero: { subtitle: string; title1: string; title2: string; cta: string };
   about: { heading: string; para1: string; para2: string; kirtanTitle: string; kirtanDesc: string; langarTitle: string; langarDesc: string; communityTitle: string; communityDesc: string; youtube: string };
   katha: { heading: string; subtitle: string };
@@ -162,6 +292,19 @@ interface Translations {
   events: { heading: string; subtitle: string; items: { date: string; title: string; desc: string }[] };
   contact: { heading: string; subtitle: string; address: string; addressValue: string; phone: string };
   footer: { name: string; location: string };
+  babaJiHistory: {
+    hero: { badge: string; title: string; subtitle: string; tagline: string };
+    earlyLife: { eyebrow: string; heading: string; p1: string; p2: string };
+    nanaksar: { range: string; heading: string; p1: string; p2: string };
+    servicePunjab: { heading: string; p1: string; p2: string };
+    burjSidwan: { range: string; heading: string; p1: string; p2: string; p3: string };
+    sunher: { eyebrow: string; heading: string; p1: string; p2: string; quote: string };
+    recognition: { heading: string; p1: string; p2: string };
+    jahraPeer: { heading: string; p1: string; p2: string; p3: string; place: string };
+    closing: { p1: string; p2: string; quote: string };
+    backToHome: string;
+    images: { earlyYearsAlt: string; hemkuntAlt: string; burjAlt: string; sunherAlt: string; jahraAlt: string };
+  };
 }
 
 interface LanguageContextType {
