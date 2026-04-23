@@ -7,6 +7,7 @@ import KathaSection from "@/components/KathaSection";
 import VideoSection from "@/components/VideoSection";
 import ScheduleSection from "@/components/ScheduleSection";
 import EventsSection from "@/components/EventsSection";
+import GallerySection from "@/components/GallerySection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -16,6 +17,7 @@ const pathToSectionId: Record<string, string> = {
   "/katha": "katha",
   "/schedule": "schedule",
   "/events": "events",
+  "/gallery": "gallery",
   "/contact": "contact",
 };
 
@@ -42,6 +44,7 @@ const Index = () => {
       <VideoSection />
       <ScheduleSection />
       <EventsSection />
+      <GallerySection />
       <ContactSection />
       <Footer />
     </div>

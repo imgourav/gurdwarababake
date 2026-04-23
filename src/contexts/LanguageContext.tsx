@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 import { createContext, useContext, useState, ReactNode } from "react";
 
 type Language = "en" | "pa";
@@ -13,6 +14,7 @@ const translations = {
       events: "Events",
       babaJiHistory: "Baba Ji History",
       contact: "Contact",
+      gallery: "Gallery",
       siteName: "Gurudwara Baba Ke Delhi",
     },
     // Hero
@@ -50,9 +52,10 @@ const translations = {
       heading: "Daily Schedule",
       subtitle: "Join us for daily prayers and seva",
       items: [
-        { time: "4:00 AM", event: "Amrit Vela — Early Morning Meditation" },
-        { time: "5:00 AM", event: "Asa Di Var — Morning Kirtan" },
-        { time: "6:00 AM", event: "Hukamnama — Daily Divine Order" },
+        { time: "3:00 AM", event: "Parkash — Opening of Sri Guru Granth Sahib Ji" },
+        { time: "5:00 AM", event: "Amrit Vela — Early Morning Meditation" },
+        { time: "6:00 AM", event: "Asa Di Var — Morning Kirtan" },
+        { time: "7:00 AM", event: "Hukamnama — Daily Divine Order" },
         { time: "24 Hours", event: "Langar Seva — Open All Day & Night" },
         { time: "7:00 PM", event: "Rehras Sahib — Evening Prayer" },
       ],
@@ -155,6 +158,7 @@ const translations = {
       events: "ਸਮਾਗਮ",
       babaJiHistory: "ਬਾਬਾ ਜੀ ਇਤਿਹਾਸ",
       contact: "ਸੰਪਰਕ",
+      gallery: "ਗੈਲਰੀ",
       siteName: "ਗੁਰਦੁਆਰਾ ਬਾਬਾ ਕੇ ਦਿੱਲੀ",
     },
     hero: {
@@ -187,9 +191,10 @@ const translations = {
       heading: "ਰੋਜ਼ਾਨਾ ਸਮਾਂ-ਸਾਰਣੀ",
       subtitle: "ਰੋਜ਼ਾਨਾ ਪ੍ਰਾਰਥਨਾ ਅਤੇ ਸੇਵਾ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
       items: [
-        { time: "ਸਵੇਰੇ 4:00", event: "ਅੰਮ੍ਰਿਤ ਵੇਲਾ — ਸਵੇਰ ਦੀ ਸਿਮਰਨ" },
-        { time: "ਸਵੇਰੇ 5:00", event: "ਆਸਾ ਦੀ ਵਾਰ — ਸਵੇਰ ਦਾ ਕੀਰਤਨ" },
-        { time: "ਸਵੇਰੇ 6:00", event: "ਹੁਕਮਨਾਮਾ — ਰੋਜ਼ਾਨਾ ਹੁਕਮ" },
+        { time: "ਸਵੇਰੇ 3:00", event: "ਪ੍ਰਕਾਸ਼ — ਸ੍ਰੀ ਗੁਰੂ ਗ੍ਰੰਥ ਸਾਹਿਬ ਜੀ" },
+        { time: "ਸਵੇਰੇ 5:00", event: "ਅੰਮ੍ਰਿਤ ਵੇਲਾ — ਸਵੇਰ ਦੀ ਸਿਮਰਨ" },
+        { time: "ਸਵੇਰੇ 6:00", event: "ਆਸਾ ਦੀ ਵਾਰ — ਸਵੇਰ ਦਾ ਕੀਰਤਨ" },
+        { time: "ਸਵੇਰੇ 7:00", event: "ਹੁਕਮਨਾਮਾ — ਰੋਜ਼ਾਨਾ ਹੁਕਮ" },
         { time: "24 ਘੰਟੇ", event: "ਲੰਗਰ ਸੇਵਾ — ਦਿਨ ਰਾਤ ਖੁੱਲ੍ਹਾ" },
         { time: "ਸ਼ਾਮ 7:00", event: "ਰਹਿਰਾਸ ਸਾਹਿਬ — ਸ਼ਾਮ ਦੀ ਅਰਦਾਸ" },
       ],
@@ -283,7 +288,7 @@ const translations = {
 };
 
 interface Translations {
-  nav: { home: string; about: string; katha: string; schedule: string; events: string; babaJiHistory: string; contact: string; siteName: string };
+  nav: { home: string; about: string; katha: string; schedule: string; events: string; babaJiHistory: string; contact: string; gallery: string; siteName: string };
   hero: { subtitle: string; title1: string; title2: string; cta: string };
   about: { heading: string; para1: string; para2: string; kirtanTitle: string; kirtanDesc: string; langarTitle: string; langarDesc: string; communityTitle: string; communityDesc: string; youtube: string };
   katha: { heading: string; subtitle: string };
