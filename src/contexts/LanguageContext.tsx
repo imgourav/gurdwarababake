@@ -66,7 +66,7 @@ const translations = {
       subtitle: "Upcoming and recurring spiritual gatherings",
       items: [
         { date: "Every Sunday", title: "Weekly Sangat Diwan", desc: "Special weekly congregation with kirtan and katha." },
-        { date: "2, 3, 4 January — Every Year", title: "Annual Gurpurab Celebration", desc: "Grand three-day Gurpurab celebration with Akhand Path, Kirtan Darbar, Nagar Kirtan, and special Langar Seva." },
+        { date: "1, 2, 3 January — Every Year", title: "Annual Gurpurab Celebration", desc: "Grand three-day Gurpurab celebration with Akhand Path, Kirtan Darbar, Nagar Kirtan, and special Langar Seva." },
         { date: "Monthly", title: "Sangrand, Masya & Dashmi Programs", desc: "Special prayers and langar on Sangrand, Masya, and Dashmi — auspicious days of the Sikh calendar." },
       ],
     },
@@ -204,7 +204,7 @@ const translations = {
       subtitle: "ਆਉਣ ਵਾਲੇ ਅਤੇ ਨਿਯਮਿਤ ਅਧਿਆਤਮਿਕ ਸਮਾਗਮ",
       items: [
         { date: "ਹਰ ਐਤਵਾਰ", title: "ਹਫ਼ਤਾਵਾਰੀ ਸੰਗਤ ਦੀਵਾਨ", desc: "ਕੀਰਤਨ ਅਤੇ ਕਥਾ ਨਾਲ ਵਿਸ਼ੇਸ਼ ਹਫ਼ਤਾਵਾਰੀ ਸੰਗਤ।" },
-        { date: "2, 3, 4 ਜਨਵਰੀ — ਹਰ ਸਾਲ", title: "ਸਾਲਾਨਾ ਗੁਰਪੁਰਬ ਸਮਾਗਮ", desc: "ਅਖੰਡ ਪਾਠ, ਕੀਰਤਨ ਦਰਬਾਰ, ਨਗਰ ਕੀਰਤਨ, ਅਤੇ ਵਿਸ਼ੇਸ਼ ਲੰਗਰ ਸੇਵਾ ਨਾਲ ਤਿੰਨ ਦਿਨਾਂ ਗੁਰਪੁਰਬ ਸਮਾਗਮ।" },
+        { date: "1, 2, 3 ਜਨਵਰੀ — ਹਰ ਸਾਲ", title: "ਸਾਲਾਨਾ ਗੁਰਪੁਰਬ ਸਮਾਗਮ", desc: "ਅਖੰਡ ਪਾਠ, ਕੀਰਤਨ ਦਰਬਾਰ, ਨਗਰ ਕੀਰਤਨ, ਅਤੇ ਵਿਸ਼ੇਸ਼ ਲੰਗਰ ਸੇਵਾ ਨਾਲ ਤਿੰਨ ਦਿਨਾਂ ਗੁਰਪੁਰਬ ਸਮਾਗਮ।" },
         { date: "ਮਹੀਨਾਵਾਰ", title: "ਸੰਗਰਾਂਦ, ਮੱਸਿਆ ਅਤੇ ਦਸ਼ਮੀ ਪ੍ਰੋਗਰਾਮ", desc: "ਸੰਗਰਾਂਦ, ਮੱਸਿਆ ਅਤੇ ਦਸ਼ਮੀ — ਸਿੱਖ ਕੈਲੰਡਰ ਦੇ ਸ਼ੁਭ ਦਿਨਾਂ 'ਤੇ ਵਿਸ਼ੇਸ਼ ਪ੍ਰਾਰਥਨਾ ਅਤੇ ਲੰਗਰ।" },
       ],
     },

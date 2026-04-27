@@ -16,7 +16,9 @@ const EventsSection = () => {
           <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-4">
             {t.events.heading}
           </h2>
-          <p className="text-muted-foreground text-lg">{t.events.subtitle}</p>
+          <p className="text-muted-foreground text-lg">
+            {t.events.subtitle} — Celebration Gurpurab 2026
+          </p>
         </div>
 
         <div ref={cardsRef} className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
