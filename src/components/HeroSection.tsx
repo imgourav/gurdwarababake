@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
+import heroMain from "@/assets/hero-main.jpg";
 
 const HeroSection = () => {
   const { t } = useLanguage();
@@ -18,7 +19,7 @@ const HeroSection = () => {
       {/* Background Image - Full Opacity, No Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/assets/hero-main.jpg')" }}
+        style={{ backgroundImage: `url(${heroMain})` }}
       />
 
       {/* Subtle darkening overlay only for text readability if needed, but keeping it minimal as requested */}
